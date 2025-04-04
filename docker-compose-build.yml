@@ -15,12 +15,12 @@ services:
     volumes:
       - gs:/home/gaseous/.gaseous-server
     environment:
-      - TZ=Australia/Sydney
+      - TZ=Europe/Copenhagen
       - dbhost=gsdb
       - dbuser=root
       - dbpass=gaseous
-      - igdbclientid=<clientid>
-      - igdbclientsecret=<clientsecret>
+      - igdbclientid=9wy3eholk6lrmlthnyc8wx6m3cb718
+      - igdbclientsecret=8ng5o648e9ois2ov7xt3bi0zonggdy
   gsdb:
     container_name: gsdb
     image: mariadb
